@@ -1,7 +1,11 @@
 import React from 'react'
 import './App.css';
 import Primeiro from './components/Primeiro'
-import CompPadrao,{Component1,Component2} from './components/Multi'
+import MinMax from './components/MinMax';
+import Titulo from './components/Titulo'
+import Botao from './components/Botao'
+import ComponentPadrao, {Component1,Component2} from './components/Multi.js'
+
 
 // function App(){
 //   return <h1>Primeiro componente</h1>
@@ -32,8 +36,14 @@ import CompPadrao,{Component1,Component2} from './components/Multi'
 
 export default function App(){
   return (
-    <Primeiro/>
-    // <Primeiro><Primeiro/>
+    <React.Fragment>
+      <Primeiro />
+       {/* <Primeiro><Primeiro/> */}
+      <MinMax min="2" max="10"/>
+      <MinMax min={4} max={15}/>
+      <Titulo principal="Olá" secundario="tudo bem?"/>
+      <Botao/>
+    </React.Fragment>
   )
 }
 

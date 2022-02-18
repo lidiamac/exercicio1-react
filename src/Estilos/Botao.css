@@ -1,0 +1,21 @@
+.botao{
+    font-size:15px;
+    font-family:Arial;
+    width:165px;
+    height:59px;
+    border-width:1px;
+    color:#fff;
+    border-color:#337bc4;
+    font-weight:bold;
+    border-radius:5px;
+    box-shadow: 1px 3px 18px -2px #1564ad;
+    text-shadow: 1px 0px 41px #528ecc;
+    background:linear-gradient(#79bbff, #378de5);
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+  
+.botao:hover {
+    background: linear-gradient(#378de5, #79bbff);
+}

@@ -1,0 +1,29 @@
+.container{
+    margin:150px 200px;
+    text-align: center;
+    border: 1px solid #c6c1ff;
+    padding: 50px;
+}
+
+.titulo{
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.botao{
+    font-size:15px;
+    font-family:Arial;
+    width:165px;
+    height:59px;
+    border-width:1px;
+    color:#fff;
+    border-color:#7ebeff;
+    font-weight:bold;
+    border-radius:5px;
+    box-shadow: 2px 2px 2px 2px #99ceff;
+    text-shadow: 1px 0px 41px #528ecc;
+    background:linear-gradient(#79bbff, #378de5);
+    cursor: pointer;
+    margin-left: 30px;
+}

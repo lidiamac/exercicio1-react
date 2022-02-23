@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../Estilos/ContadorStyle.css'
 
 function Contador (props) {
     const [numero, setNumero] = useState(props.inicial);
@@ -25,10 +26,11 @@ function Contador (props) {
 
     return (
         <>
-            <h2>{numero}</h2>
-            <button onClick={decremento}>-</button>
-            <button onClick={incremento}>+</button>
-
+            <div className="container">
+                <h2 className="titulo">{numero}</h2>
+                <button onClick={decremento} className="botao">-</button>
+                <button onClick={incremento} className="botao">+</button>
+            </div>
         </>
     )
 }

@@ -2,17 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Multi from './components/Multi';
-import Estilos from './components/Estilos'
-import Primeiro from './components/Primeiro'
+// import Multi from './components/Multi';
+// import Estilos from './components/Estilos'
+// import Primeiro from './components/Primeiro'
 
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Multi/>
+    {/* <Multi/>
     <Primeiro/>
-    <Estilos/>
+    <Estilos/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

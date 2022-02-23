@@ -1,10 +1,11 @@
 import React from 'react'
-import './App.css';
-import Primeiro from './components/Primeiro'
-import MinMax from './components/MinMax';
-import Titulo from './components/Titulo'
-import Botao from './components/Botao'
-import ComponentPadrao, {Component1,Component2} from './components/Multi.js'
+// import './App.css';
+// import Primeiro from './components/Primeiro'
+// import MinMax from './components/MinMax';
+// import Titulo from './components/Titulo'
+// import Botao from './components/Botao'
+// import ComponentPadrao, {Component1,Component2} from './components/Multi.js'
+import Contador from './components/Contador'
 
 
 // function App(){
@@ -37,12 +38,13 @@ import ComponentPadrao, {Component1,Component2} from './components/Multi.js'
 export default function App(){
   return (
     <React.Fragment>
-      <Primeiro />
+      {/* <Primeiro /> */}
        {/* <Primeiro><Primeiro/> */}
-      <MinMax min="2" max="10"/>
-      <MinMax min={4} max={15}/>
-      <Titulo principal="Olá" secundario="tudo bem?"/>
-      <Botao/>
+      {/* <MinMax min="2" max="10"/> */}
+      {/* <MinMax min={4} max={15}/> */}
+      {/* <Titulo principal="Olá" secundario="tudo bem?"/> */}
+      {/* <Botao/> */}
+      <Contador inicial={0} passo={10} limiteMax={100}></Contador>
     </React.Fragment>
   )
 }

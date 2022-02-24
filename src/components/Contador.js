@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../Estilos/ContadorStyle.css'
+import '../components/estilos/contador-style.css'
 
 function Contador (props) {
     const [numero, setNumero] = useState(props.inicial);

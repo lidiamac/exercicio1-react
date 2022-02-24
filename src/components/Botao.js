@@ -1,5 +1,5 @@
 import React from 'react';
-import Botao from '../Estilos/Botao.css'
+import '../components/estilos/botao.css'
 
 export default props => {
     function cadastrar (){

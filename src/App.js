@@ -1,5 +1,12 @@
 import React from 'react'
-import Filho from './components/indireta/Pai'
+import CadastroNome from './classes/CadastroNome'
+// import DigiteSeuNome from './estadoControlado/DigiteSeuNome'
+// import ListaProdutos from './produtos/ListaProdutos'
+// import ParImpar from './components/parImpar/ParImpar'
+// import UsuarioLogado from './components/condicional2/UsuarioLogado'
+// import Familia from './components/children/Familia'
+// import Membro from './components/children/Membro'
+// import Filho from './components/indireta/Pai'
 // import Pai from './components/direta/Pai'
 // import Carro from '../src/components/carro/Carro'
 // import './App.css';
@@ -41,7 +48,36 @@ import Filho from './components/indireta/Pai'
 
 export default function App() {
   return (
-    <React.Fragment>
+    <>
+      <CadastroNome/>
+
+
+      {/* <DigiteSeuNome /> */}
+
+      {/* <ListaProdutos /> */}
+
+
+     {/* <UsuarioLogado usuario={{nome: 'Gui', email: 'gui@gmail.com'}}/>
+      <UsuarioLogado usuario={{nome: 'Ana'}}/>
+      <UsuarioLogado usuario={{email: 'carlos@empresa.com.br'}}/>
+      <UsuarioLogado usuario={{}}/>
+      <UsuarioLogado usuario={{}}/> */}
+
+
+    {/* <ParImpar num={3}/>
+    <ParImpar num={2}/> */}
+      {/* <Familia>
+        <Membro nome="Jonas" sobrenome="Oliveira"/>
+        <Membro nome="Ronaldo" sobrenome="Oliveira"/>
+        <Membro nome="Zina" sobrenome="Oliveira"/>
+      </Familia>
+
+      <Familia>
+        <Membro nome="Lidia" sobrenome="Maciel"/>
+        <Membro nome="Samoel" sobrenome="Maciel"/>
+        <Membro nome="Sandra" sobrenome="Reis"/>
+      </Familia> */}
+
       {/* <Primeiro /> */}
       {/* <Primeiro><Primeiro/> */}
       {/* <MinMax min="2" max="10"/> */}
@@ -59,7 +95,7 @@ export default function App() {
         <Carro modelo="Urus" marca="Lamborghini" cor="Amarelo" ano="2020" portas="4 Portas" combustivel="Gasolina" cambio="AUTOMÁTICO 6 MARCHAS" tam_aro="" potencia="650 CV" preco="R$ 3.140.000,00"amarelo></Carro>
       </ul> */}
       {/* <Pai/> */}
-      <Filho/>
-    </React.Fragment>
+      {/* <Filho/> */}
+      </>
   )
 }

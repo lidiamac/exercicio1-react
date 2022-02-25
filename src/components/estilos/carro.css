@@ -1,0 +1,85 @@
+.item-lista{
+    margin: 50px;
+    list-style: none;
+    text-align: center;
+    width: 20%;
+    border: 1px solid #ccc;
+    padding: 20px 1px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background:linear-gradient(#eeeeee, #fdfdfd);
+}
+
+/* 
+.titulo{
+    
+}
+
+
+.detalhe{
+
+} */
+
+.btn-comprar{
+    font-size:15px;
+    font-family:Arial;
+    width:100px;
+    height:59px;
+    border: 1px solid #7ebeff;
+    color:#fff;
+    font-weight:bold;
+    border-radius:5px;
+    text-shadow: 1px 0px 41px #528ecc;
+    background:linear-gradient(#79bbff, #378de5);
+    cursor: pointer;
+    margin: 20px 0 0 15px;
+    padding: 10px 20px;
+}
+
+.btn-comprar-cinza{
+    font-size:15px;
+    font-family:Arial;
+    width:100px;
+    height:59px;
+    border: 1px solid #c9c9c9;
+    color:#fff;
+    font-weight:bold;
+    border-radius:5px;
+    text-shadow: 1px 0px 41px #a8a8a8;
+    background:linear-gradient(#808080, #c2c2c2);
+    cursor: pointer;
+    margin: 20px 0 0 15px;
+    padding: 10px 20px;
+}
+
+.btn-comprar-vermelho{
+    font-size:15px;
+    font-family:Arial;
+    width:100px;
+    height:59px;
+    border: 1px solid #c9c9c9;
+    color:#fff;
+    font-weight:bold;
+    border-radius:5px;
+    text-shadow: 1px 0px 41px #a8a8a8;
+    background:linear-gradient(rgb(255, 129, 129), rgb(209, 38, 38));
+    cursor: pointer;
+    margin: 20px 0 0 15px;
+    padding: 10px 20px;
+}
+
+.btn-comprar-amarelo{
+    font-size:15px;
+    font-family:Arial;
+    width:100px;
+    height:59px;
+    border: 1px solid #c9c9c9;
+    color:#fff;
+    font-weight:bold;
+    border-radius:5px;
+    text-shadow: 5px 5px 41px #2e2e2e;
+    background:linear-gradient(#fcff35, #ffe70b);
+    cursor: pointer;
+    margin: 20px 0 0 15px;
+    padding: 10px 20px;
+}
